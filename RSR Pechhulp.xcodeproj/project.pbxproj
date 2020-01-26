@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A507DB323DC7934003617B2 /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A507DB223DC7934003617B2 /* Alert.storyboard */; };
+		8A507DB723DC7A14003617B2 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A507DB623DC7A14003617B2 /* AlertVC.swift */; };
+		8A507DBA23DC7DB0003617B2 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A507DB923DC7DB0003617B2 /* AlertManager.swift */; };
 		8AC8301123D88F5A00B8C140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8301023D88F5A00B8C140 /* AppDelegate.swift */; };
 		8AC8301323D88F5A00B8C140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8301223D88F5A00B8C140 /* SceneDelegate.swift */; };
-		8AC8301523D88F5A00B8C140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8301423D88F5A00B8C140 /* ViewController.swift */; };
 		8AC8301823D88F5A00B8C140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC8301623D88F5A00B8C140 /* Main.storyboard */; };
 		8AC8301A23D88F5D00B8C140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC8301923D88F5D00B8C140 /* Assets.xcassets */; };
 		8AC8301D23D88F5D00B8C140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC8301B23D88F5D00B8C140 /* LaunchScreen.storyboard */; };
+		8AC8302623D8913600B8C140 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8302523D8913600B8C140 /* MainMenuVC.swift */; };
+		8AC8302923D89B3B00B8C140 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8302823D89B3B00B8C140 /* MapVC.swift */; };
+		8AC8302D23DB392600B8C140 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8302C23DB392600B8C140 /* AboutVC.swift */; };
+		8AC8303623DB414C00B8C140 /* NSAttributedString+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8303523DB414C00B8C140 /* NSAttributedString+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A507DB223DC7934003617B2 /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		8A507DB623DC7A14003617B2 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		8A507DB923DC7DB0003617B2 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		8AC8300D23D88F5A00B8C140 /* RSR Pechhulp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSR Pechhulp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC8301023D88F5A00B8C140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC8301223D88F5A00B8C140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AC8301423D88F5A00B8C140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AC8301723D88F5A00B8C140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC8301923D88F5D00B8C140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC8301C23D88F5D00B8C140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC8301E23D88F5D00B8C140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC8302523D8913600B8C140 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		8AC8302823D89B3B00B8C140 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		8AC8302C23DB392600B8C140 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		8AC8303523DB414C00B8C140 /* NSAttributedString+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A507DB823DC7DA5003617B2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8A507DB923DC7DB0003617B2 /* AlertManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		8AC8300423D88F5A00B8C140 = {
 			isa = PBXGroup;
 			children = (
 				8AC8300F23D88F5A00B8C140 /* RSR Pechhulp */,
+				8AC8301E23D88F5D00B8C140 /* Info.plist */,
 				8AC8300E23D88F5A00B8C140 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +77,44 @@
 		8AC8300F23D88F5A00B8C140 /* RSR Pechhulp */ = {
 			isa = PBXGroup;
 			children = (
+				8A507DB823DC7DA5003617B2 /* Managers */,
+				8AC8303423DB413500B8C140 /* Extensions */,
+				8AC8302723D8913A00B8C140 /* ViewControllers */,
+				8AC8302423D88F6200B8C140 /* Support */,
+			);
+			path = "RSR Pechhulp";
+			sourceTree = "<group>";
+		};
+		8AC8302423D88F6200B8C140 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				8AC8301023D88F5A00B8C140 /* AppDelegate.swift */,
 				8AC8301223D88F5A00B8C140 /* SceneDelegate.swift */,
-				8AC8301423D88F5A00B8C140 /* ViewController.swift */,
 				8AC8301623D88F5A00B8C140 /* Main.storyboard */,
 				8AC8301923D88F5D00B8C140 /* Assets.xcassets */,
 				8AC8301B23D88F5D00B8C140 /* LaunchScreen.storyboard */,
-				8AC8301E23D88F5D00B8C140 /* Info.plist */,
+				8A507DB223DC7934003617B2 /* Alert.storyboard */,
 			);
-			path = "RSR Pechhulp";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8AC8302723D8913A00B8C140 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC8302523D8913600B8C140 /* MainMenuVC.swift */,
+				8AC8302823D89B3B00B8C140 /* MapVC.swift */,
+				8AC8302C23DB392600B8C140 /* AboutVC.swift */,
+				8A507DB623DC7A14003617B2 /* AlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8AC8303423DB413500B8C140 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AC8303523DB414C00B8C140 /* NSAttributedString+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC8301D23D88F5D00B8C140 /* LaunchScreen.storyboard in Resources */,
+				8A507DB323DC7934003617B2 /* Alert.storyboard in Resources */,
 				8AC8301A23D88F5D00B8C140 /* Assets.xcassets in Resources */,
 				8AC8301823D88F5A00B8C140 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC8301523D88F5A00B8C140 /* ViewController.swift in Sources */,
 				8AC8301123D88F5A00B8C140 /* AppDelegate.swift in Sources */,
+				8A507DB723DC7A14003617B2 /* AlertVC.swift in Sources */,
+				8AC8302D23DB392600B8C140 /* AboutVC.swift in Sources */,
+				8AC8302923D89B3B00B8C140 /* MapVC.swift in Sources */,
+				8AC8303623DB414C00B8C140 /* NSAttributedString+Ext.swift in Sources */,
 				8AC8301323D88F5A00B8C140 /* SceneDelegate.swift in Sources */,
+				8AC8302623D8913600B8C140 /* MainMenuVC.swift in Sources */,
+				8A507DBA23DC7DB0003617B2 /* AlertManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D99Z26P27B;
-				INFOPLIST_FILE = "RSR Pechhulp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D99Z26P27B;
-				INFOPLIST_FILE = "RSR Pechhulp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

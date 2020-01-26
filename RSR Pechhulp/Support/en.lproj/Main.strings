@@ -1,0 +1,12 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Cpu-mN-MVL"; */
+"Cpu-mN-MVL.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "RSR Pechhulp"; ObjectID = "JFq-e9-WHC"; */
+"JFq-e9-WHC.normalTitle" = "RSR Pechhulp";
+
+/* Class = "UINavigationItem"; title = "RSR Revalidatieservice"; ObjectID = "JbP-Wg-dOQ"; */
+"JbP-Wg-dOQ.title" = "RSR Revalidatieservice";
+
+/* Class = "UINavigationItem"; title = "RSR Pechhulp"; ObjectID = "sai-3r-A1h"; */
+"sai-3r-A1h.title" = "RSR Pechhulp";
