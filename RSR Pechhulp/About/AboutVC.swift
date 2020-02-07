@@ -11,6 +11,7 @@ import UIKit
 class AboutVC: UIViewController {
 
     @IBOutlet weak var textView: UITextView!
+    private let viewModel = AboutVCViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,9 +20,9 @@ class AboutVC: UIViewController {
 
     // Creates a hyperlink to open in safari
     func createHyperLink() {
-        let path = "https://www.rsr.nl/"
+        let path = viewModel.hyperLinkPath
         guard let text = textView.text else { return }
-        let attributedString = NSMutableAttributedString.makeHyperlink(for: path, in: text, as: "www.rsr.nl")
+        let attributedString = NSMutableAttributedString.makeHyperlink(for: path, in: text, as: viewModel.hyperLinkRange)
         let font = textView.font
         textView.attributedText = attributedString
         textView.font = font
