@@ -28,11 +28,16 @@ class PopupView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    deinit {
+        print("popupview deinitialized")
+    }
+
     let cancelButton = UIButton()
     let titleLabel = UILabel()
     let messageLabel = UILabel()
     let callButton = UIButton()
     let popupBox = UIView()
+
 
     func setupViews(view: UIView) {
         popupBox.addSubview(cancelButton)

@@ -36,6 +36,10 @@ class MapVC: UIViewController {
         popupView.delegate = self
     }
 
+    deinit {
+        print("mapvc dinitialized")
+    }
+
     // Shows custom alert and removes callout view
     @IBAction func callRsrNumber(_ sender: Any) {
         UIView.transition(with: popupView.popupBox, duration: 0.5, options: .transitionCrossDissolve, animations: {
@@ -79,7 +83,8 @@ class MapVC: UIViewController {
     func configureNetworkMonitor() {
         let queue = DispatchQueue(label: viewModel.networkMonitorQueueLabel)
 
-        networkMonitor.pathUpdateHandler = { path in
+        networkMonitor.pathUpdateHandler = { [weak self] path in
+            guard let self = self else { return }
             if path.status == .satisfied {
                 self.networkStatus = .connected
             } else {
