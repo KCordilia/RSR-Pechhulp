@@ -23,7 +23,7 @@ class MainMenuVC: UIViewController {
 
     func checkIfPrivacyConsentIsGiven() {
         if !userDefaults.bool(forKey: viewModel.userDefaultsKey) {
-            AlertManager(owner: self).showPrivacyAlert(userDefaultsKey: viewModel.userDefaultsKey)
+            showPrivacyAlert(userDefaultsKey: viewModel.userDefaultsKey)
         }
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I60-zj-qkK">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="kXV-fc-VVV" customClass="AboutVC" customModule="RSR_Pechhulp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ywg-6H-C7i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="over_image" translatesAutoresizingMaskIntoConstraints="NO" id="kzO-g7-1eu">
-                                <rect key="frame" x="0.0" y="88" width="414" height="235"/>
+                                <rect key="frame" x="0.0" y="50" width="1024" height="500"/>
                                 <color key="backgroundColor" red="0.0" green="0.57254901960000004" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="235" id="ns5-Pt-M7r">
@@ -25,19 +25,19 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="ie7-Sc-yrZ">
-                                <rect key="frame" x="0.0" y="323" width="414" height="8"/>
+                                <rect key="frame" x="0.0" y="550" width="1024" height="8"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="8" id="m8l-KV-AJZ"/>
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLT-WQ-H8l">
-                                <rect key="frame" x="0.0" y="331" width="414" height="540"/>
+                                <rect key="frame" x="0.0" y="558" width="1024" height="817"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2x-VL-Z3f">
-                                        <rect key="frame" x="10" y="10" width="394" height="520"/>
+                                        <rect key="frame" x="10" y="10" width="1004" height="797"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yXV-Hh-LPe">
-                                                <rect key="frame" x="0.0" y="0.0" width="394" height="520"/>
+                                                <rect key="frame" x="10" y="0.0" width="984" height="591"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <string key="text">Met de hulp van RSR blijft u mobiel. RSR is dé leverancier van hulpmiddelen in de regio Noordoost-Nederland. Gedegen kennis en jarenlange ervaring zit in ons DNA verweven en leidt tot het beste advies.
 
@@ -54,7 +54,7 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                                                 </variation>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small_logo_ipad" translatesAutoresizingMaskIntoConstraints="NO" id="wi2-tP-wfM">
-                                                <rect key="frame" x="295" y="311" width="200" height="200"/>
+                                                <rect key="frame" x="402" y="597" width="200" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="360" id="8i3-IF-MIg">
                                                         <variation key="heightClass=regular-widthClass=regular" constant="200"/>
@@ -138,17 +138,17 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainMenuVC" customModule="RSR_Pechhulp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_background" translatesAutoresizingMaskIntoConstraints="NO" id="u6h-WY-Ubp">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="50" width="1024" height="1316"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-Bv-bwX">
-                                <rect key="frame" x="20" y="742" width="374" height="60"/>
+                                <rect key="frame" x="150" y="1142" width="724" height="144"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFq-e9-WHC">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="724" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="OmJ-rs-eSZ"/>
                                         </constraints>
@@ -161,7 +161,7 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBP-rS-Mca">
-                                        <rect key="frame" x="0.0" y="84" width="510" height="60"/>
+                                        <rect key="frame" x="0.0" y="84" width="724" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="wvk-SR-9l1"/>
                                         </constraints>
@@ -221,23 +221,23 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
             <objects>
                 <viewController id="EI0-wY-neS" customClass="MapVC" customModule="RSR_Pechhulp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YUU-0U-ynu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-vJ-57h">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="50" width="1024" height="1316"/>
                                 <connections>
                                     <outlet property="delegate" destination="EI0-wY-neS" id="dP4-9S-wk2"/>
                                 </connections>
                             </mapView>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0HY-N8-PXG">
-                                <rect key="frame" x="0.0" y="813" width="810" height="267"/>
+                                <rect key="frame" x="0.0" y="1099" width="1024" height="267"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esL-6f-1Q1">
-                                        <rect key="frame" x="100" y="20" width="610" height="227"/>
+                                        <rect key="frame" x="100" y="20" width="824" height="227"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neem contact op met RSR Nederland." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNO-Eg-sTS">
-                                                <rect key="frame" x="93.5" y="0.0" width="423.5" height="31.5"/>
+                                                <rect key="frame" x="200.5" y="0.0" width="423.5" height="31.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="424" id="FUc-cg-SnX"/>
                                                 </constraints>
@@ -250,22 +250,26 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9x-ss-WR4">
-                                                <rect key="frame" x="200" y="88.5" width="210" height="61"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9x-ss-WR4">
+                                                <rect key="frame" x="200" y="88.5" width="424" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <inset key="imageEdgeInsets" minX="-130" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-150" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="0900-7788990" image="ic_phone"/>
                                                 <connections>
                                                     <action selector="callRsrNumber:" destination="EI0-wY-neS" eventType="touchUpInside" id="Zyr-MF-eFZ"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voor dit nummer betaalt u uw gebruikelijke belkosten." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-o6-Oxk">
-                                                <rect key="frame" x="100.5" y="206.5" width="409" height="20.5"/>
+                                                <rect key="frame" x="207.5" y="206.5" width="409" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="B9x-ss-WR4" secondAttribute="trailing" constant="200" id="H9f-dI-jz1"/>
+                                            <constraint firstItem="B9x-ss-WR4" firstAttribute="leading" secondItem="esL-6f-1Q1" secondAttribute="leading" constant="200" id="Lc9-DY-Uky"/>
+                                        </constraints>
                                         <variation key="heightClass=regular-widthClass=regular" alignment="center" axis="vertical" spacing="57"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cKA-ks-BhQ">
@@ -393,13 +397,13 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                             <rect key="frame" x="10" y="16" width="184" height="141"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uw locatie:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb2-iC-gj0">
-                                    <rect key="frame" x="0.0" y="0.0" width="184" height="33.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="184" height="33.5"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading address..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3a-7u-vAE">
-                                    <rect key="frame" x="0.0" y="53.666666666666671" width="184" height="33.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="53.5" width="184" height="34"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="D6S-1w-AD6"/>
                                     </constraints>
@@ -408,7 +412,7 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onthoud deze locatie voor het telefoongesprek." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZr-GZ-DQh">
-                                    <rect key="frame" x="0.0" y="107.33333333333333" width="184" height="33.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="107.5" width="184" height="33.5"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -439,7 +443,7 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I60-zj-qkK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WhX-tg-HWe">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.57254901960000004" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -464,9 +468,9 @@ Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bez
         <image name="ic_over_ipad" width="30" height="30"/>
         <image name="ic_over_normal" width="30" height="30"/>
         <image name="ic_phone" width="32" height="36"/>
-        <image name="img_background" width="320" height="416"/>
-        <image name="line" width="320" height="8"/>
-        <image name="over_image" width="320" height="216"/>
+        <image name="img_background" width="768" height="1024"/>
+        <image name="line" width="768" height="18"/>
+        <image name="over_image" width="768" height="524"/>
         <image name="small_logo_ipad" width="176" height="148"/>
         <image name="terug_normal" width="54" height="22"/>
     </resources>

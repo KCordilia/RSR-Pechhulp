@@ -90,7 +90,7 @@ class MapVC: UIViewController {
             } else {
                 self.networkStatus = .notConnected
                 DispatchQueue.main.async {
-                    AlertManager(owner: self).showInternetAccessAlert(networkStatus: self.networkStatus) {
+                    self.showInternetAccessAlert(networkStatus: self.networkStatus) {
                         self.centerViewOnUserLocation()
                     }
                 }

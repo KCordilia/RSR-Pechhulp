@@ -17,6 +17,7 @@
 		8A77F94123E9C39400A17112 /* MappAnnotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77F94023E9C39400A17112 /* MappAnnotationViewModel.swift */; };
 		8A7F796423EC660700C7AB05 /* PopupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F796323EC660700C7AB05 /* PopupViewDelegate.swift */; };
 		8A7F796623EC6F2700C7AB05 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F796523EC6F2700C7AB05 /* AboutViewModel.swift */; };
+		8A7F796C24006CCB00C7AB05 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F796B24006CCB00C7AB05 /* UIViewController+Ext.swift */; };
 		8AC8301123D88F5A00B8C140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8301023D88F5A00B8C140 /* AppDelegate.swift */; };
 		8AC8301323D88F5A00B8C140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8301223D88F5A00B8C140 /* SceneDelegate.swift */; };
 		8AC8301823D88F5A00B8C140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC8301623D88F5A00B8C140 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		8A77F94023E9C39400A17112 /* MappAnnotationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappAnnotationViewModel.swift; sourceTree = "<group>"; };
 		8A7F796323EC660700C7AB05 /* PopupViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewDelegate.swift; sourceTree = "<group>"; };
 		8A7F796523EC6F2700C7AB05 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
+		8A7F796B24006CCB00C7AB05 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		8AC8300D23D88F5A00B8C140 /* RSR Pechhulp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSR Pechhulp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC8301023D88F5A00B8C140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC8301223D88F5A00B8C140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				8AC8303523DB414C00B8C140 /* NSAttributedString+Ext.swift */,
 				8A77F92823E2176A00A17112 /* MapVC+Ext.swift */,
 				8A77F93223E5912600A17112 /* MapVC+LocationManager.swift */,
+				8A7F796B24006CCB00C7AB05 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ACCD5B223EB1CA30014E514 /* MainMenuViewModel.swift in Sources */,
+				8A7F796C24006CCB00C7AB05 /* UIViewController+Ext.swift in Sources */,
 				8A77F93C23E8A49700A17112 /* MapAnnotationView.swift in Sources */,
 				8A77F92923E2176A00A17112 /* MapVC+Ext.swift in Sources */,
 				8A77F92F23E4722100A17112 /* PopupView.swift in Sources */,

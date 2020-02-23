@@ -21,11 +21,11 @@ extension MapVC {
             centerViewOnUserLocation()
             reverseGeoLocate()
         case .denied:
-            AlertManager(owner: self).showAlert()
+            showAlert()
         case .notDetermined:
             locationManager.requestWhenInUseAuthorization()
         case.restricted:
-            AlertManager(owner: self).showRestrictedAlert()
+            showRestrictedAlert()
             break
         case .authorizedAlways:
             break
@@ -39,7 +39,7 @@ extension MapVC {
             setupLocationManager()
             checkLocationServicesAuthorization()
         } else {
-            AlertManager(owner: self).showAlert()
+            showAlert()
         }
     }
 
